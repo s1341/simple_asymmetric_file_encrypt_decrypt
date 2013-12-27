@@ -17,12 +17,12 @@ The `encrypt` function takes the following arguments:
  - encfilename: The name of the 'encrypted file store' - the encrypted tar ball.
  - file(s): A list of files to encrypt.
 
-== Example
+### Example
 ````
 encrypt id_rsa.pub.pem keyfile.enc secretfiles.enc *.secret
 ```
 
-= ProTip
+#### ProTip
 You probably already have an asymmetric RSA keypair: your SSH key!
 
 You can use this same key to encrypt/decrypt files using this script, you just
@@ -45,7 +45,7 @@ The `decrypt` function takes the following arguments:
  - file(s): A list of files to extract from the tar ball. If undefined, all 
             files will be extracted.
 
- == Example
+ ### Example
  ```
  decrypt ~/.ssh/id_rsa keyfile.enc secretfiles.enc
  ```

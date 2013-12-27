@@ -22,7 +22,7 @@ The `encrypt` function takes the following arguments:
 encrypt id_rsa.pub.pem keyfile.enc secretfiles.enc *.secret
 ```
 
-#### ProTip
+### ProTip
 You probably already have an asymmetric RSA keypair: your SSH key!
 
 You can use this same key to encrypt/decrypt files using this script, you just
